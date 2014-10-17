@@ -1,0 +1,47 @@
+<np-feature id="EL-quiz1" version="1.0.0" timestamp="20141006121230">
+	<np-theme id="" css="<url>,<url>" js="<url>"></np-theme>
+	<np-content id="content-en-US" language="en-US" title="Content Title" description="Content Description">
+		<np-theme id="theme-en-US" css="<url>" js="<url>"></np-theme>
+		<np-header id="header-content">
+			<np-html>
+			</np-html>
+		</np-header>
+		<np-pages id="pages">
+			<np-page id="page-1" parent="" title="title" subtitle="sub" inMenu="true" required="false">
+				<header>
+					<np-html id="html1">
+						{output}
+					</np-html>
+				</header>
+				<section>
+					<np-html id="html2">
+						{output}
+					</np-html>
+					<np-matchQuestion id="q1" points="10" terms="[1,2,3]" definitions="['one','two','three']">
+						<p>{challenge}</p>
+						<np-timed timeout="2000" callback="<URL>"> </np-timed>
+					</np-matchQuestion>
+					<np-column id="c1" width="50%">
+						<np-html id="html3">
+							{output}
+						</np-html>
+					</np-column>
+					<np-column id="c2" width="50%">
+						<np-video id="v1" source="<url>" poster="<url>"></np-video>
+					</np-column>
+					<np-button id="b1" href="<url>">
+						{output}
+					</np-button>
+					<np-button id="b2" href="<url>">
+						{output}
+					</np-button>
+					<np-button id="b3" href="<url>">
+						{output}
+					</np-button>
+				</section>
+				<footer>
+				</footer>
+			</np-page>
+		<np-pages>
+	</np-content>
+</np-feature>

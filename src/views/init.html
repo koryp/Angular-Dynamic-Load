@@ -1,0 +1,9 @@
+<div id="initView">
+	scope message: {{message}}
+
+	<div ng-switch="pageStatus">
+		<div ng-switch-when="loaded">
+			<div ng-include=" 'lazy' "></div>
+		</div>
+	</div>
+</div>

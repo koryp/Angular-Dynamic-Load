@@ -1,0 +1,10 @@
+<div id="pageView">
+	<p>message: {{message}}</p>
+	<p>pageStatus: {{pageStatus}}</p>
+
+	<div ng-switch="pageStatus">
+		<div ng-switch-when="loaded">
+			<div ng-include=" 'lazy' "></div>
+		</div>
+	</div>
+</div>

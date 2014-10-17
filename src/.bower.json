@@ -1,0 +1,20 @@
+{
+  "name": "new-player",
+  "version": "0.0.1",
+  "main": "./js/new-player.js",
+  "dependencies": {
+    "requirejs": "2.1.15"
+    "angular": "1.2.26"
+    "angular-route": "1.2.26"
+  },
+  "homepage": "https://github.com/thenewgroup/new-player",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": ""
+  },
+  "_source": "git://github.com/thenewgroup/new-player.git",
+  "_target": "~0.0.1",
+  "_originalSource": "new-player"
+}
